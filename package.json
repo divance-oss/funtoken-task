@@ -1,0 +1,25 @@
+{
+  "name": "funtoken",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx hardhat test",
+    "test-api": "jest jest --verbose ./**/test/unit/controller.test.js",
+    "rest-api": "node ./server/src/app.js",
+    "client": "npm run dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.5.0",
+    "dotenv": "^16.0.0",
+    "jest": "^27.5.1",
+    "web3": "^1.7.0"
+  },
+  "dev-dependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^9.2.1"
+  }
+}
